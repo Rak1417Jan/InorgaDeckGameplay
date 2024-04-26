@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const checkedCards = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
             .map(checkbox => checkbox.id.replace('add-', ''));
         localStorage.setItem('checkedProductCards', JSON.stringify(checkedCards));
-        window.location.href = 'playScreen.html';
+        window.location.href = 'https://rak1417jan.github.io/InorgaDeckGameplay/AuthSignIn.html';
     });
   
   
